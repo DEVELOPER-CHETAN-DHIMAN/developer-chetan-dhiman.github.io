@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --background: #333446;
+    --font: #EAEFEF;
+}
+
+body{
+    position: relative;
+    border: 1px solid red;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex: 1;
+}
+main {
+    flex: 5;
+}
+footer {
+    flex: 0.5;
+}
+img {
+    width: 300px;
+}
+header > nav {
+
+    padding: 20px;
+}
+
+.navbarOne-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 80px;
+}
+
+.navbarTwo {
+    margin: 0px 50px;
+}
+
+.navbarTwo-linkes > a{
+    margin: 0px 20px;
+}
+
+.portfolioImageContainer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-area{
+    text-align: center;
+}
